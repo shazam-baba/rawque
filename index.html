@@ -3,164 +3,44 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,500&display=swap" rel="stylesheet">
-    <style>
-    *{
-      margin: 0; padding: 0;
-      font-family: 'Asap', sans-serif;
-
-    }
-
-    .btn{
-      color: white;
-      background: #0069D9;
-    }
-    button:hover{
-      background: #fff;
-      color: #0069D9;
-      box-shadow: 0 0 10px #0069D9;
-    }
-
-    .carousel-inner img {
-      width: 100%;
-      height: 100%;
-    }
-    </style>
-    <title>Rawque Technologies</title>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>RAWQUE</title>
   </head>
   <body>
-  <header>
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-      <!-- Brand/logo -->
-      <a class="navbar-brand" href="https://www.rawque.com/" target="_blank">RAWQUE</a>
-
-      <!-- Links -->
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Gallery</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">About me</a>
-        </li>
+    <section class="banner" id="sec">
+      <header>
+        <a href="https://www.rawque.com" class="logo">RAQWQUE</a>
+        <div id="toggle" onclick="toggle()"></div>
+      </header>
+      <div class="content">
+        <h2>Hello World, <br>I,m <span>Vipin Gulia</span></h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <a href="#">KNOW MORE</a>
+      </div>
+      <ul class="sci">
+        <li><a href="#"><img src="fb.png" width="64" height="auto" ></a></li>
+        <li><a href="#"><img src="fb.png" width="64" height="auto"></a></li>
+        <li><a href="#"><img src="fb.png" width="64" height="auto"></a></li>
       </ul>
-      <form class="form-inline" action="/action_page.php">
-        <input class="form-control mr-sm-2" type="text" placeholder="Search">
-        <button class="btn btn-success" type="submit">Search</button>
-      </form>
-    </nav>
-    <div id="demo" class="carousel slide" data-ride="carousel">
-
-      <!-- Indicators -->
-      <ul class="carousel-indicators">
-        <li data-target="#demo" data-slide-to="0" class="active"></li>
-        <li data-target="#demo" data-slide-to="1"></li>
-        <li data-target="#demo" data-slide-to="2"></li>
+    </section>
+    <div id="navigation">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About ME</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Blogs</a></li>
+        <li><a href="#">Contact Me</a></li>
       </ul>
 
-      <!-- The slideshow -->
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="image/one.jpg" alt="Los Angeles">
-          <div class="carousel-caption">
-            <h3>Los Angeles</h3>
-            <p>We had such a great time in LA!</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="image/two.jpg" alt="Chicago">
-          <div class="carousel-caption">
-            <h3>Los Angeles</h3>
-            <p>We had such a great time in LA!</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="image/three.jpg" alt="New York">
-          <div class="carousel-caption">
-            <h3>Los Angeles</h3>
-            <p>We had such a great time in LA!</p>
-          </div>
-        </div>
-      </div>
-
-      <!-- Left and right controls -->
-      <a class="carousel-control-prev" href="#demo" data-slide="prev">
-        <span class="carousel-control-prev-icon"></span>
-      </a>
-      <a class="carousel-control-next" href="#demo" data-slide="next">
-        <span class="carousel-control-next-icon"></span>
-      </a>
     </div>
-  </header>
-<!-- aboutus -->
-    <section>
-      <div class="container-fliud">
-        <h1 class="text-center text-capitalize pt-5">about us</h1>
-        <hr class="w-25 mx-auto pt-5">
-        <div class="row mb-5">
-          <div class="col-lg-6 col-md-6 col-12">
-            <img src="image/pinpul.jpg" alt="" class="img-fluid">
-          </div>
-          <div class="col-lg-6 col-md-6 col-12">
-            <h1 class="text-center">Who Are we</h1>
-            <hr>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-            <button type="button" class="btn" co>KNOW MORE</button>
-          </div>
-
-        </div>
-      </div>
-    </section>
-<!-- services -->
-    <section>
-
-    <div class="container-fliud">
-    <h1 class="text-center text-capitalize pt-5">Services</h1>
-    <hr class="w-25 mx-auto pt-5">
-    </div>
-    <div class="row text-center mx-auto">
-      <div class="col-lg-4 col-md-4 col-12">
-        <div class="card" style="width:300px">
-          <img class="card-img-top" src="image/vipin.jpg" alt="Card image">
-          <div class="card-body">
-            <h4 class="card-title">Vipin Gulia</h4>
-            <p class="card-text">Luli the Gangster</p>
-            <a href="#" class="btn btn-primary">See Profile</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-4 col-12">
-        <div class="card" style="width:300px">
-          <img class="card-img-top" src="image/vipin.jpg" alt="Card image">
-          <div class="card-body">
-            <h4 class="card-title">Vipin Gulia</h4>
-            <p class="card-text">Luli the Gangster</p>
-            <a href="#" class="btn btn-primary">See Profile</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-4 col-12">
-        <div class="card" style="width:300px">
-          <img class="card-img-top" src="image/vipin.jpg" alt="Card image">
-          <div class="card-body">
-            <h4 class="card-title">Vipin Gulia</h4>
-            <p class="card-text">Luli the Gangster</p>
-            <a href="#" class="btn btn-primary">See Profile</a>
-          </div>
-        </div>
-      </div>
-
-    </div>
-
-    </section>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+      function toggle() {
+        var sec = document.getElementById('sec');
+        var nav = document.getElementById('navigation');
+        sec.classList.toggle('active')
+        nav.classList.toggle('active')
+      }
+    </script>
   </body>
 </html>
